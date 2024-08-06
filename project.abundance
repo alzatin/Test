@@ -16,7 +16,7 @@
             "ioValues": [
                 {
                     "name": "number or geometry",
-                    "ioValue": 1722895767792
+                    "ioValue": 1722895802754
                 }
             ]
         },
@@ -78,8 +78,8 @@
         {
             "atomType": "Molecule",
             "name": "Bench leg Outside",
-            "x": 0.42656249999999996,
-            "y": 0.6870588235294118,
+            "x": 0.4228130360205832,
+            "y": 0.6747720364741642,
             "uniqueID": 1722895802754,
             "ioValues": [
                 {
@@ -353,12 +353,7 @@
                         }
                     ],
                     "fileTypeVersion": 1,
-                    "compiledBom": [
-                        {
-                            "numberNeeded": null,
-                            "costUSD": null
-                        }
-                    ]
+                    "compiledBom": []
                 },
                 {
                     "atomType": "Molecule",
@@ -611,12 +606,7 @@
                         }
                     ],
                     "fileTypeVersion": 1,
-                    "compiledBom": [
-                        {
-                            "numberNeeded": null,
-                            "costUSD": null
-                        }
-                    ]
+                    "compiledBom": []
                 },
                 {
                     "atomType": "Difference",
@@ -692,12 +682,7 @@
                 }
             ],
             "fileTypeVersion": 1,
-            "compiledBom": [
-                {
-                    "numberNeeded": null,
-                    "costUSD": null
-                }
-            ]
+            "compiledBom": []
         }
     ],
     "allConnectors": [
@@ -716,10 +701,10 @@
             "ap2ID": 1722895767792
         },
         {
-            "ap1Name": "geometry",
+            "ap1Name": "Geometry",
             "ap2Name": "number or geometry",
             "ap2Primary": false,
-            "ap1ID": 1722895767792,
+            "ap1ID": 1722895802754,
             "ap2ID": 1722895646435
         }
     ],
