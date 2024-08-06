@@ -95,7 +95,12 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": 1722895802131,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": 1722897182017
+                        }
+                    ]
                 },
                 {
                     "atomType": "Molecule",
@@ -677,10 +682,22 @@
                     "ap2Primary": true,
                     "ap1ID": 1722897112193,
                     "ap2ID": 1722897182017
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 1722897182017,
+                    "ap2ID": 1722895802131
                 }
             ],
             "fileTypeVersion": 1,
-            "compiledBom": {}
+            "compiledBom": [
+                {
+                    "numberNeeded": null,
+                    "costUSD": null
+                }
+            ]
         }
     ],
     "allConnectors": [
