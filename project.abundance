@@ -78,8 +78,8 @@
         {
             "atomType": "Molecule",
             "name": "Bench leg Outside",
-            "x": 0.4228130360205832,
-            "y": 0.6747720364741642,
+            "x": 0.42195540308747853,
+            "y": 0.696048632218845,
             "uniqueID": 1722895802754,
             "ioValues": [
                 {
@@ -98,7 +98,7 @@
                     "ioValues": [
                         {
                             "name": "number or geometry",
-                            "ioValue": 1722897182017
+                            "ioValue": 1723049351682
                         }
                     ]
                 },
@@ -649,6 +649,25 @@
                     "y": 0.6799999999999999,
                     "uniqueID": 1722897202587,
                     "ioValues": []
+                },
+                {
+                    "atomType": "Add-BOM-Tag",
+                    "name": "Add BOM Tag",
+                    "x": 0.6397941680960549,
+                    "y": 0.6656534954407295,
+                    "uniqueID": 1723049351682,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1722897182017
+                        }
+                    ],
+                    "BOMitem": {
+                        "BOMitemName": "roundi",
+                        "numberNeeded": 1,
+                        "costUSD": 0,
+                        "source": "www.example.com"
+                    }
                 }
             ],
             "allConnectors": [
@@ -675,14 +694,28 @@
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1722897182017,
+                    "ap2ID": 1723049351682
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
                     "ap2Primary": false,
-                    "ap1ID": 1722897182017,
+                    "ap1ID": 1723049351682,
                     "ap2ID": 1722895802131
                 }
             ],
             "fileTypeVersion": 1,
-            "compiledBom": []
+            "compiledBom": [
+                {
+                    "BOMitemName": "roundi",
+                    "numberNeeded": 1,
+                    "costUSD": 0,
+                    "source": "www.example.com"
+                }
+            ]
         }
     ],
     "allConnectors": [
@@ -710,6 +743,13 @@
     ],
     "unitsKey": "MM",
     "fileTypeVersion": 1,
-    "compiledBom": [],
+    "compiledBom": [
+        {
+            "BOMitemName": "roundi",
+            "numberNeeded": 1,
+            "costUSD": 0,
+            "source": "www.example.com"
+        }
+    ],
     "filetypeVersion": 1
 }
